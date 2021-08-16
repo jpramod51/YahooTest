@@ -1,0 +1,36 @@
+{
+  "name": "yahootesting",
+  "version": "1.0.0",
+  "description": "initial testing of yahoo mail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpramod51/YahooTest.git"
+  },
+  "author": "Pramod J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpramod51/YahooTest/issues"
+  },
+  "homepage": "https://github.com/jpramod51/YahooTest#readme",
+  "dependencies": {
+    "protractor": "^7.0.0",
+    "@cucumber/cucumber": "^7.3.1",
+    "@types/cucumber": "7.0.0",
+    "@types/node": "16.6.1",
+    "cucumber": "^7.0.0-rc.0",
+    "ts-node": "10.2.0",
+    "typescript": "4.3.5",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.0.0",
+    "cucumber-html-reporter": "^5.4.0",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "protractor-cucumber-framework": "^8.2.3"
+  }
+}
